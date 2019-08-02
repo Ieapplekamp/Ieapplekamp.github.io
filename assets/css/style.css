@@ -1,3 +1,26 @@
+/* 
+.header {
+    display: inline-block;
+}
+*/
+ul {
+    list-style-type: none;
+    overflow: hidden; 
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+}
+
 .test {
     color: red;
+}
+
+#selfie {
+    width: 200px;
+    height: 200px;
 }
