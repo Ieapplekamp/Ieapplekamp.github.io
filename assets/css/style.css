@@ -67,10 +67,4 @@ img {
 .test {
     border-bottom: solid, 20px, #666666
 }
-
-footer {
-    border-top: 8px, solid, #4aaaa5;
-    position: fixed;
-    bottom: 0;
-}
 /*
