@@ -53,11 +53,15 @@ section {
     background-color: #ffffff;
 }
 
+/* title for h2, about me */
+
 .about_me {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding-bottom: 10px;
 }
+
+/* Everything in the middle section */
 
 .container {
     border-top: 2px solid #777777;
@@ -70,6 +74,8 @@ p {
     padding: 15px;
 }
 
+/* Picture */
+
 img {
     width: 200px;
     height: 200px;
@@ -79,6 +85,8 @@ img {
 #selfie {
     float: left;
 }
+
+/* Last section */
 
 .footer {
     background-color: #666666;
