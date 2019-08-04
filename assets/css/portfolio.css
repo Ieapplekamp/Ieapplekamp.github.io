@@ -42,6 +42,12 @@ li a {
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+section {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #ffffff; 
+}
+
 /* Footer styling tags */
 
 .footer {

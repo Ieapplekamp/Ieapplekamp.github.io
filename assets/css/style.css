@@ -12,8 +12,8 @@ body {
 
 header {
     background-color: #ffffff; 
-    margin-left: 10%;
-    margin-right: 10%;
+   /* margin-left: 10%;
+    margin-right: 10%; */
     /* margin-bottom: 5%; */
 }
 
@@ -46,13 +46,15 @@ li a {
 
 /* nav styling end */
 
-section {
-    padding: 3%;
+.spacing {
     margin-left: 10%;
     margin-right: 10%;
+}
+
+section {
+    padding: 3%;
     background-color: #ffffff;
     margin-top: 50px;
-    margin-bottom: 10%; 
 }
 
 /* title for h2, about me */
@@ -96,7 +98,6 @@ img {
     position: fixed;
     bottom: 0;
     width: 100%;
-    /* height: 20px; */
     text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #dddddd;
