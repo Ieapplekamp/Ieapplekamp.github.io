@@ -46,13 +46,13 @@ li a {
 .spacing {
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 90px;
 }
 
 section {
     padding: 3%;
     background-color: #ffffff;
     margin-top: 50px;
+    margin-bottom: 85px;
 }
 
 /* title for h2, about me */
