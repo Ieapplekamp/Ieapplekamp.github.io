@@ -77,6 +77,14 @@ p {
     padding: 10px;
 }
 
+/* ID tags for portfolio page */
+
+.floats {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+}
+
 /* Picture */
 
 img {
