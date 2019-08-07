@@ -78,11 +78,13 @@ p {
 }
 
 /* ID tags for portfolio page */
-
+/* come back to tomorrow */
 .floats {
     height: 100px;
-    width: 100px;
+    width: 20%;
     background-color: pink;
+    float: left;
+    overflow: auto;
 }
 
 /* Picture */
