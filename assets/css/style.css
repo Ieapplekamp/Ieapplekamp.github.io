@@ -41,6 +41,10 @@ li a {
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+a:hover, a:visited {
+    opacity: .5;
+    color: pink;
+}
 /* nav styling end */
 
 .spacing {
@@ -54,6 +58,7 @@ section {
     margin-top: 50px;
     margin-bottom: 85px;
 }
+
 
 /* title for h2, about me */
 
@@ -80,11 +85,35 @@ p {
 /* ID tags for portfolio page */
 /* come back to tomorrow */
 .floats {
-    height: 100px;
-    width: 20%;
+    height: 250px;
+    width: 250px;
     background-color: pink;
-    float: left;
-    overflow: auto;
+}
+
+#floats {
+    display: inline-table;
+   /* justify-content: center; */
+    margin-top: 20px;
+}
+
+.group1 {
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+    padding: 10px 0 20px 0;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 10px;
+    /* overflow: wrap; */
+}
+
+.group2 {
+    text-align: center;
+    display: inline-block;
+    padding: 10px 0 20px 0;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    margin-right: 50px;
 }
 
 /* Picture */
