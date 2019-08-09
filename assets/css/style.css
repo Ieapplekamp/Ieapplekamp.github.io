@@ -72,8 +72,8 @@ section {
 
 .container {
     border-top: 2px solid #777777;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 20px;
+  /*  padding-bottom: 20px; */
 }
 
 p {
@@ -83,17 +83,16 @@ p {
 }
 
 /* ID tags for portfolio page */
-/* come back to tomorrow */
+
 .floats {
     height: 250px;
     width: 250px;
-    background-color: pink;
 }
 
 #floats {
     display: inline-table;
    /* justify-content: center; */
-    margin-top: 20px;
+   /* margin-top: 20px; */
 }
 
 .group1 {
@@ -117,16 +116,20 @@ p {
 }
 
 /* Picture */
-
+/*
 img {
     width: 200px;
     height: 200px;
     padding-right: 10px;
     padding-bottom: 7px;
-}
+} */
 
 #selfie {
     float: left;
+    width: 200px;
+    height: 200px;
+    padding-right: 10px;
+    padding-bottom: 7px;
 }
 
 /* Last section */
