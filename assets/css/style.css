@@ -32,16 +32,16 @@ ul li {
     display: inline-flex;
 }
 
-li a {
+li .links {
     text-align: right;
     text-decoration: none;
     display: block;
     padding: 20px;
-    color: #777777;
+    color: rgba(255, 0, 86, .8);
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-a:hover, a:visited {
+.links:hover, .links:visited {
     opacity: .5;
     color: pink;
 }
@@ -68,12 +68,12 @@ section {
     padding-bottom: 10px;
 }
 
-/* Everything in the middle section */
+/* Middle section */
 
 .container {
     border-top: 2px solid #777777;
     padding-top: 20px;
-  /*  padding-bottom: 20px; */
+    position: relative;
 }
 
 p {
@@ -82,47 +82,48 @@ p {
     padding: 10px;
 }
 
-/* ID tags for portfolio page */
-
-.floats {
-    height: 250px;
-    width: 250px;
-}
+/* Portfolio page */
 
 #floats {
     display: inline-table;
-   /* justify-content: center; */
-   /* margin-top: 20px; */
+}
+
+.boxes {
+    display: inline-block;
+    position: relative;
+}
+
+.banner {
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(255, 0, 86, .8);
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
 }
 
 .group1 {
-    text-align: center;
-    align-content: center;
+    height: 250px;
+    width: 250px;
     display: inline-block;
-    padding: 10px 0 20px 0;
+    padding: 10px 0 10px 0;
     margin-bottom: 50px;
     margin-right: 50px;
     margin-left: 10px;
-    /* overflow: wrap; */
 }
 
-.group2 {
-    text-align: center;
-    display: inline-block;
-    padding: 10px 0 20px 0;
-    margin-left: 10px;
-    margin-bottom: 50px;
-    margin-right: 50px;
+.boxes:hover {
+    opacity: .5;
 }
 
-/* Picture */
-/*
-img {
-    width: 200px;
-    height: 200px;
-    padding-right: 10px;
-    padding-bottom: 7px;
-} */
+.boxes:hover .banner {
+    opacity: 1;
+    left: 95px;
+    bottom: 180px;
+
+}
+
+/* About Page Image */
 
 #selfie {
     float: left;
