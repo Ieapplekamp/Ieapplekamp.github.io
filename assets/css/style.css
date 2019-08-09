@@ -83,23 +83,14 @@ p {
 }
 
 /* Portfolio page */
-
+/*
 #floats {
     display: inline-table;
 }
-
+*/
 .boxes {
     display: inline-block;
     position: relative;
-}
-
-.banner {
-    position: absolute;
-    opacity: 0;
-    background-color: rgba(255, 0, 86, .8);
-    color: white;
-    font-size: 16px;
-    padding: 10px 20px 10px 20px;
 }
 
 .group1 {
@@ -112,15 +103,23 @@ p {
     margin-left: 10px;
 }
 
-.boxes:hover {
-    opacity: .5;
-}
-
-.boxes:hover .banner {
-    opacity: 1;
+.banner {
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(255, 0, 86, .8);
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
     left: 95px;
     bottom: 180px;
+}
 
+.boxes:hover {
+    opacity: .7;
+}
+/* struggling to get the banner to appear at 1, continues to show at .7*/
+.boxes:hover .banner {
+    opacity: 1;
 }
 
 /* About Page Image */
