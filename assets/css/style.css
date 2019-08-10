@@ -83,11 +83,7 @@ p {
 }
 
 /* Portfolio page */
-/*
-#floats {
-    display: inline-table;
-}
-*/
+
 .boxes {
     display: inline-block;
     position: relative;
@@ -106,7 +102,7 @@ p {
 .banner {
     position: absolute;
     opacity: 0;
-    background-color: rgba(255, 0, 86, .8);
+    background-color: rgba(255, 0, 86, 1);
     color: white;
     font-size: 16px;
     padding: 10px 20px 10px 20px;
@@ -117,7 +113,7 @@ p {
 .boxes:hover {
     opacity: .7;
 }
-/* struggling to get the banner to appear at 1, continues to show at .7 */
+
 .boxes:hover .banner {
     opacity: 1;
 }
@@ -135,8 +131,6 @@ p {
 /* Contact Page */
 
 form {
-   /* position: absolute;
-    align-content: center; */
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
 }
@@ -152,6 +146,8 @@ input {
 textarea {
     width: 70%;
     height: 200px;
+    padding-left: 7px;
+    padding-top: 5px;
     margin-top: 10px;
     resize: none;
 }
