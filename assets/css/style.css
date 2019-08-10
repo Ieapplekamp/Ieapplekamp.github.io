@@ -144,12 +144,23 @@ form {
 input {
     width: 50%;
     height: 30px;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 textarea {
     width: 70%;
     height: 200px;
+    margin-top: 10px;
     resize: none;
+}
+
+button {
+    background-color: rgba(255, 0, 86, .8);
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
 }
 
 /* Last section */
